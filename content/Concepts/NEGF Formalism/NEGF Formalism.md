@@ -84,7 +84,7 @@ $$G_{AR} \propto |F(\omega)|^2$$
 
 ---
 
-## Advantages of NEGF for Your Thesis
+## Advantages of NEGF for My Thesis work
 - Handles **disorder** naturally via self-energies
 - Works for **finite-voltage** transport (not just linear response)
 - Can incorporate **spin-orbit coupling**, **exchange fields**, **triplet pairing** — all in the same matrix framework

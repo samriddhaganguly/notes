@@ -287,7 +287,7 @@ $$\hat{\mathbf{n}}\cdot\nabla\check{g} = 0$$
 | Self-consistency | Built-in | Built-in | Extra loop needed |
 | Computational cost | Low | Medium | High |
 
-**Your thesis strategy:** Use **Usadel** for diffusive trilayer/spin-valve physics → LRTC, spin susceptibility. Use **NEGF** for transport, sharp interfaces, topological signatures.
+Use **Usadel** for diffusive trilayer/spin-valve physics → LRTC, spin susceptibility. Use **NEGF** for transport, sharp interfaces, topological signatures.
 
 ---
 
