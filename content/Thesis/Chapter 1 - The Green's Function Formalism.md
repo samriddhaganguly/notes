@@ -1214,5 +1214,6 @@ where $D=v_F^2\tau/3$ is the **diffusion constant**.
 - [[Topological Superconductivity]] : Green’s-function signatures of topological phases
 - [[K-Theory Classification of Topo Ins and Topo SC]] : symmetry classes in Green’s-function language
 - [[π-Junctions]] : TBD
+- [[Chapter 2 - Quasiclassical Theory of Superconductivity Eilenberger and Usadel Equations]] The continuation and detailed dealing of the Quasiclassical Formalism
 - [[SC-FM Heterostructures]] : superconducting proximity effects in hybrid systems
 - [[Odd-Parity Triplet Pairing]] : anomalous Green’s functions and unconventional pairing
