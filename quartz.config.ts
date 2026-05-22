@@ -101,16 +101,14 @@ const config: QuartzConfig = {
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),
-
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "tokyo-night-light",
-          dark: "tokyo-night",
-        },
+         light: "github-light",
+         dark: "dracula",
+       },
 
         keepBackground: false,
       }),
-
       Plugin.ObsidianFlavoredMarkdown({
         enableInHtmlEmbed: false,
       }),
