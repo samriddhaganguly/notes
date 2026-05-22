@@ -613,11 +613,50 @@ $$
 
 > [!success]+ **The Three Independent Components (RAK Basis)**
 >
-> $$G^R(\mathbf{k};t,t') = \hat{G}^{>}-\hat{G}^{<} = \Theta(t-t')\bigl(\hat{G}^{>}-\hat{G}^{<}\bigr) \tag{36a}$$
+> $$
+> G^R(\mathbf{k};t,t')
+> =
+> \hat{G}^{>}
+> -
+> \hat{G}^{<}
+> =
+> \Theta(t-t')
+> \bigl(
+> \hat{G}^{>}
+> -
+> \hat{G}^{<}
+> \bigr)
+> \tag{36a}
+> $$
 >
-> $$G^A(\mathbf{k};t,t') = \hat{G}^{<}-\hat{G}^{>} = -\Theta(t'-t)\bigl(\hat{G}^{>}-\hat{G}^{<}\bigr) = \bigl[G^R(\mathbf{k};t',t)\bigr]^{\dagger} \tag{36b}$$
+> $$
+> G^A(\mathbf{k};t,t')
+> =
+> \hat{G}^{<}
+> -
+> \hat{G}^{>}
+> =
+> -\Theta(t'-t)
+> \bigl(
+> \hat{G}^{>}
+> -
+> \hat{G}^{<}
+> \bigr)
+> =
+> \bigl[
+> G^R(\mathbf{k};t',t)
+> \bigr]^{\dagger}
+> \tag{36b}
+> $$
 >
-> $$G^K(\mathbf{k};t,t') = \hat{G}^{>}+\hat{G}^{<} \tag{36c}$$
+> $$
+> G^K(\mathbf{k};t,t')
+> =
+> \hat{G}^{>}
+> +
+> \hat{G}^{<}
+> \tag{36c}
+> $$
 
 The **zero in the lower-left** of $(35)$ is an *exact* identity following from $(33)$.
 
