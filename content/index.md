@@ -1,5 +1,5 @@
 ---
-title: Samriddha's — MS Thesis Notes
+title: Samriddha's MS Thesis Notes
 ---
 
 # SC-FM Heterostructures & Topological Superconductivity
