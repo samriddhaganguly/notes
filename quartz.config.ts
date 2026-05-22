@@ -4,20 +4,28 @@ import * as Plugin from "./quartz/plugins"
 /**
  * Quartz 4 Configuration
  *
- * See https://quartz.jzhao.xyz/configuration for more information.
+ * Modern colorful futuristic academic theme
+ * for physics / thesis notes
  */
+
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "Samriddha's Thesis Notes",
     pageTitleSuffix: "",
+
     enableSPA: true,
     enablePopovers: true,
+
     analytics: {
       provider: "plausible",
     },
+
     locale: "en-US",
+
     baseUrl: "samriddhaganguly.github.io/notes",
+
     ignorePatterns: ["private", "templates", ".obsidian"],
+
     defaultDateType: "modified",
 
     theme: {
@@ -25,46 +33,62 @@ const config: QuartzConfig = {
       cdnCaching: true,
 
       typography: {
-        header: "Inter",
-        body: "Inter",
+        header: "Space Grotesk",
+        body: "Plus Jakarta Sans",
         code: "JetBrains Mono",
       },
 
       colors: {
         lightMode: {
-          light: "#fcfcfd",
-          lightgray: "#e6e8ec",
-          gray: "#a0a7b4",
-          darkgray: "#525866",
-          dark: "#1f2937",
+          // Backgrounds
+          light: "#f7f9fc",
+          lightgray: "#dce6f2",
 
-          // Primary accent
-          secondary: "#2563eb",
+          // Muted elements
+          gray: "#7d8ca3",
 
-          // Secondary accent
-          tertiary: "#7c3aed",
+          // Main text
+          darkgray: "#334155",
+          dark: "#0f172a",
 
-          // UI highlights
-          highlight: "rgba(37, 99, 235, 0.10)",
-          textHighlight: "#fde68a88",
+          // Vibrant primary accent
+          secondary: "#06b6d4",
+
+          // Bright secondary accent
+          tertiary: "#8b5cf6",
+
+          // Hover / cards / highlights
+          highlight: "rgba(139, 92, 246, 0.12)",
+
+          // Text selection
+          textHighlight: "#67e8f988",
         },
 
         darkMode: {
-          light: "#0f1117",
-          lightgray: "#232634",
-          gray: "#7b8496",
-          darkgray: "#d6d9e0",
-          dark: "#f3f4f6",
+          // Deep blue-black background
+          light: "#070b14",
 
-          // Primary accent
-          secondary: "#60a5fa",
+          // Cards / panels
+          lightgray: "#151c2e",
 
-          // Secondary accent
-          tertiary: "#a78bfa",
+          // Muted text
+          gray: "#7c8ba1",
 
-          // UI highlights
-          highlight: "rgba(96, 165, 250, 0.12)",
-          textHighlight: "#facc1588",
+          // Main readable text
+          darkgray: "#dbe4f0",
+          dark: "#f8fafc",
+
+          // Neon cyan
+          secondary: "#22d3ee",
+
+          // Neon violet
+          tertiary: "#a855f7",
+
+          // Glow highlights
+          highlight: "rgba(168, 85, 247, 0.16)",
+
+          // Text selection
+          textHighlight: "#22d3ee55",
         },
       },
     },
@@ -80,9 +104,10 @@ const config: QuartzConfig = {
 
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "github-light",
-          dark: "github-dark",
+          light: "tokyo-night-light",
+          dark: "tokyo-night",
         },
+
         keepBackground: false,
       }),
 
@@ -105,7 +130,9 @@ const config: QuartzConfig = {
       }),
     ],
 
-    filters: [Plugin.RemoveDrafts()],
+    filters: [
+      Plugin.RemoveDrafts(),
+    ],
 
     emitters: [
       Plugin.AliasRedirects(),
@@ -131,7 +158,7 @@ const config: QuartzConfig = {
 
       Plugin.NotFoundPage(),
 
-      // Comment out CustomOgImages to speed up build time
+      // Comment out to speed up build
       Plugin.CustomOgImages(),
     ],
   },
