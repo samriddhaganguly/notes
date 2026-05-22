@@ -5,17 +5,17 @@ Tags: #thesis #overview #home
 ---
 
 ## Research Topic
-SC-FM Heterostructures: NEGF Methods for Odd-Parity Triplet and Unconventional Topological Superconductivity — Theory and Experiments
+SC-FM Heterostructures: NEGF Methods for Odd-Parity Triplet and Unconventional Topological Superconductivity: Theory and Experiments
 
 ---
 
 ## Research Question
-> *(Write your specific research question here)*
+> *(Soon everyone!)*
 
 ---
 
 ## Central Argument / Hypothesis
-> *(What is your main claim or contribution?)*
+> *(WAITTT)*
 
 ---
 
@@ -23,19 +23,21 @@ SC-FM Heterostructures: NEGF Methods for Odd-Parity Triplet and Unconventional T
 - Primary: [[NEGF Formalism]] for quantum transport
 - Supporting: BdG Hamiltonian construction
 - Comparison: Quasiclassical methods (Usadel/Eilenberger) where applicable
-- Experiments: (list key experimental techniques in your work)
+- Experiments: Transport and Spectroscopy techniques
 
 ---
 
 ## Chapter Map
 
-- [[Chapter 1 - Introduction]]
-- [[Chapter 2 - SC-FM Proximity Effect and Heterostructures]]
-- [[Chapter 3 - Odd-Parity Triplet Pairing]]
-- [[Chapter 4 - NEGF Transport Formalism]]
-- [[Chapter 5 - Topological Superconductivity in Heterostructures]]
-- [[Chapter 6 - Experimental Results and Comparison]]
-- [[Chapter 7 - Conclusions and Outlook]]
+- [[Chapter 0 - Introduction and Motivation]]
+- [[Chapter 1 - The Green's Function Formalism]]
+- [[Chapter 2 - Quasiclassical Theory of Superconductivity: Eilenberger and Usadel Equations]]
+- [[Chapter 3 - Proximity Effects in Superconductor-Ferromagnet Heterostructures]]
+- [[Chapter 4 - Spin Transport and Dynamical Spin Response]]
+- [[Chapter 5 - Analytical and Numerical Results]]
+- [[Chapter 6 - Growth of Natural SC-FM Heterostructures]]
+- [[Chapter 7 - Experimental Probe of Interfacial Effects]]
+- [[Chapter 8 - Discussion of Modelling and Experimental Findings]]
 
 *(Rename / restructure chapters as your thesis evolves)*
 
@@ -58,25 +60,24 @@ SC-FM Heterostructures: NEGF Methods for Odd-Parity Triplet and Unconventional T
 ---
 
 ## My Potential Contribution
-> *(What gap does your work fill? Write here as it becomes clearer)*
+> *(wait 1 year)*
 
 ---
 
-## Important Collaborators / Supervisors
-- 
+## Supervisors
+Prof. Ravi Prakash Singh (IISER Bhopal)
+Prof. Julia Meyer (CEA Grenoble)
+Prof. Manuel Houzet (CEA Grenoble)
 
 ---
 
-## Deadlines
-| Milestone | Date |
-|---|---|
-| Literature review draft | |
-| Chapter 1 draft | |
-| Thesis submission | |
+## Timeline
+
+| Milestone                     | Date                  |
+| ----------------------------- | --------------------- |
+| Literature Review: Theory     | 01/05/2026-Present    |
+| Literature Review: Experiment | 25/05/2026-Present    |
+| Chapter 1 draft               | 01/05/2026-22/05/2026 |
+| Thesis submission             | TBD                   |
 
 ---
-
-## Reading List (Priority)
-- [ ] 
-- [ ] 
-- [ ] 
