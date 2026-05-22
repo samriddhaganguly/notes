@@ -146,17 +146,17 @@ where $U_\mu(\mathbf{k}) = \langle u(\mathbf{k})|u(\mathbf{k}+\hat{\mu})\rangle 
 ## K-Theory: The Mathematical Framework
 
 ### What K-Theory Does
-K-theory classifies **vector bundles** over the BZ torus T^d. Occupied bands form a vector bundle; topological invariants are elements of K-groups:
+K-theory classifies **vector bundles** over the BZ torus $T^d$. Occupied bands form a vector bundle; topological invariants are elements of K-groups:
 
-- **Complex K-theory K(T^d):** for class A, AIII
-- **Real K-theory KO(T^d):** for the 8 real classes
+- **Complex K-theory K($T^d$):** for class A, AIII
+- **Real K-theory KO($T^d$):** for the 8 real classes
 
 ### Key K-Groups (no disorder)
-| d | K(T^d) | KO(T^d) |
-|---|---|---|
-| 1 | Z | Z₂ |
-| 2 | Z² | Z₂ ⊕ Z |
-| 3 | Z³ | Z |
+| d   | K($T^d$) | KO($T^d$) |
+| --- | -------- | --------- |
+| 1   | Z        | Z₂        |
+| 2   | Z²       | Z₂ ⊕ Z    |
+| 3   | Z³       | Z         |
 
 ### Twisted K-Theory and Disorder
 With disorder (Wigner-Dyson symmetry classes), use:
@@ -210,7 +210,7 @@ In SC-FM heterostructures, the effective BdG Hamiltonian typically falls in:
 - **Class DIII** (if effective TRS preserved, e.g., non-collinear FM)
 - **Class BDI** (with additional chiral symmetry, e.g., 1D atomic chains)
 
-The **exchange field** tunes the topological transition: trivial (|J| < Δ) ↔ topological (|J| > Δ) at the critical point where the gap closes.
+The **exchange field** tunes the topological transition: trivial ($|J| < Δ$) ↔ topological ($|J| > Δ$) at the critical point where the gap closes.
 
 ---
 

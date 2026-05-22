@@ -43,7 +43,7 @@ SC-FM Heterostructures: NEGF Methods for Odd-Parity Triplet and Unconventional T
 ---
 
 ## Core Concept Notes
-- [[NEGF Formalism]]
+- [[K-Theory Classification of Topo Ins and Topo SC]]
 - [[Odd-Parity Triplet Pairing]]
 - [[SC-FM Heterostructures]]
 - [[Topological Superconductivity]]

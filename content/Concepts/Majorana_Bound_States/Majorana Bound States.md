@@ -55,7 +55,7 @@ $$H_{MBS} = i\epsilon_M\gamma_1\gamma_{2N} = \epsilon_M(2f^\dagger f - 1)$$
 The splitting:
 $$\epsilon_M \propto e^{-L/\xi}\cos(k_F L)$$
 
-where L = system length, ξ = coherence length, k_F = Fermi wavevector.
+where L = system length, ξ = coherence length, $k_F$ = Fermi wavevector.
 - **Oscillates and decays** with system size
 - Topological protection requires $L \gg \xi$
 - Oscillations visible in experiments as **ZBCP splitting in magnetic field**
@@ -108,7 +108,7 @@ $$E_Z > \sqrt{\Delta^2 + \mu^2}$$
 ## Atomic Chains on SC (Shiba Chains)
 
 Another platform: magnetic atoms on SC surface (e.g., Fe on Pb):
-- Each magnetic atom creates a **Yu-Shiba-Rusinov (YSR) state** at $E_{YSR} = \pm\Delta\sqrt{1-\alpha^2}/(1+\alpha^2)$ where α = JS/W
+- Each magnetic atom creates a **Yu-Shiba-Rusinov (YSR) state** at $E_{YSR} = \pm\Delta\sqrt{1-\alpha^2}/(1+\alpha^2)$ where $α = JS/W$
 - Chain of atoms → **YSR band**
 - Topological phase: MBS at chain ends
 - **Directly imaged by STM** at zero bias
@@ -139,7 +139,7 @@ $$\gamma \times \gamma = 1 + \psi$$
 ### 1. Zero-Bias Conductance Peak (ZBCP)
 In a tunnel junction (N|barrier|TSC):
 $$G(V=0) = \frac{2e^2}{h}$$
-The quantized **2e²/h** value is predicted for a perfect NS interface.
+The quantized **$2e²/h$** value is predicted for a perfect NS interface.
 
 **Observation history:**
 - Mourik et al. (2012): InSb nanowire: first ZBCP report

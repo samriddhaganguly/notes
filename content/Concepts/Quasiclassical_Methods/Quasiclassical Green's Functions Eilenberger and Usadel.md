@@ -7,8 +7,8 @@ Tags: #quasiclassical #Eilenberger #Usadel #Gor'kov #spin-susceptibility #triple
 ## Why Quasiclassical?
 
 The full Gor'kov Green's function varies on two scales:
-- **Fast scale:** ~k_F⁻¹ (atomic, Fermi wavelength)
-- **Slow scale:** ξ₀ = ℏv_F/2πk_BT_c (coherence length, much larger)
+- **Fast scale:** ~$k_F⁻¹$ (atomic, Fermi wavelength)
+- **Slow scale:** $ξ₀ = ℏv_F/2πk_BT_c$ (coherence length, much larger)
 
 **Quasiclassical approximation:** integrate out the fast oscillations, keep only the slow envelope. This is valid when:
 $$k_F\xi_0 \gg 1 \quad \text{(always satisfied in metals)}$$

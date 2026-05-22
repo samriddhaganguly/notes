@@ -11,16 +11,16 @@ A **superconductor-ferromagnet (SC-FM) heterostructure** is a layered system whe
 
 ## Competing Order Parameters
 
-| Order | SC | FM |
-|---|---|---|
-| **Tendency** | Pairs electrons into singlets (↑↓) | Aligns spins (↑↑) |
-| **Energy scale** | Δ (gap) | J_ex (exchange energy) |
-| **Effect on other** | Suppresses FM | Pair-breaks singlets |
+| Order               | SC                                 | FM                       |
+| ------------------- | ---------------------------------- | ------------------------ |
+| **Tendency**        | Pairs electrons into singlets (↑↓) | Aligns spins (↑↑)        |
+| **Energy scale**    | $Δ$ (gap)                          | $J_ex$ (exchange energy) |
+| **Effect on other** | Suppresses FM                      | Pair-breaks singlets     |
 
 **Key length scales:**
-- ξ_S = SC coherence length (Cooper pair size) ~ 10–100 nm
-- ξ_F = FM coherence length (pair oscillation) ~ 1–10 nm (short!)
-- ξ_N = normal metal coherence length ~ 100s nm
+- $ξ_S$ = SC coherence length (Cooper pair size) ~ 10–100 nm
+- $ξ_F$ = FM coherence length (pair oscillation) ~ 1–10 nm (short!)
+- $ξ_N$ = normal metal coherence length ~ 100s nm
 
 ---
 
@@ -36,7 +36,7 @@ $$F(x) \propto e^{-x/\xi_F} \cos(x/\xi_F)$$
 This is the **FFLO-like oscillation**: the exchange field acts like a momentum boost on pairs.
 
 ### In the SC:
-- Thin FM → suppresses Tc
+- Thin FM → suppresses $Tc$
 - Exchange field induces **spin-split DOS** (Yu-Shiba-Rusinov states)
 - Can induce **π-junctions** (order parameter changes sign)
 

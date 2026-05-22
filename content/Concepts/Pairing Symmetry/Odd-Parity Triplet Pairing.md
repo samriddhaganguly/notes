@@ -97,7 +97,7 @@ Conventional SC (singlet s-wave)
 
 Odd-parity triplet (p-wave-like) → **candidate for topological SC**
 
-- p_x + ip_y pairing → **Chern number ≠ 0**
+- $p_x$ + $ip_y$ pairing → **Chern number ≠ 0**
 - Supports **Majorana edge modes**
 - Effective p-wave can be **induced** in heterostructures even from s-wave SC
 

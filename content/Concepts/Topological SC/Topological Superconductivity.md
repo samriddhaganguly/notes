@@ -64,7 +64,7 @@ These can be combined into one Dirac fermion: $f = (\gamma_1 + i\gamma_2)/2$
 
 ---
 
-## p_x + ip_y Superconductor (2D)
+## $p_x$ + $ip_y$ Superconductor (2D)
 
 - Odd-parity triplet pairing
 - **Chern number N = 1**
