@@ -33,7 +33,7 @@ When SC and FM are in contact:
 ### In the FM (singlet):
 The order parameter **oscillates and decays**:
 $$F(x) \propto e^{-x/\xi_F} \cos(x/\xi_F)$$
-This is the **FFLO-like oscillation** — the exchange field acts like a momentum boost on pairs.
+This is the **FFLO-like oscillation**: the exchange field acts like a momentum boost on pairs.
 
 ### In the SC:
 - Thin FM → suppresses Tc
@@ -119,21 +119,21 @@ Engineering **effective p-wave** pairing in heterostructures:
 ---
 
 ## Key Papers to Read
-- [ ] Buzdin — Proximity effects in SC-FM systems (Rev. Mod. Phys. 2005)
-- [ ] Bergeret, Volkov, Efetov — Odd triplet superconductivity (Rev. Mod. Phys. 2005)
-- [ ] Demler et al. — π-junctions
-- [ ] Keizer et al. — LRTC in CrO₂ (Nature 2006)
-- [ ] Robinson et al. — Controlled LRTC generation
-- [ ] [[]] ← add your papers here
+- [ ] Buzdin : Proximity effects in SC-FM systems (Rev. Mod. Phys. 2005)
+- [ ] Bergeret, Volkov, Efetov : Odd triplet superconductivity (Rev. Mod. Phys. 2005)
+- [ ] Demler et al. : π-junctions
+- [ ] Keizer et al. : LRTC in CrO₂ (Nature 2006)
+- [ ] Robinson et al. : Controlled LRTC generation
+- [ ] [[]] ← More soon
 
 ---
 
 ## Connections
-- [[NEGF Formalism]] — transport method for these systems
-- [[Odd-Parity Triplet Pairing]] — triplet generated at SC-FM interface
-- [[Topological Superconductivity]] — end goal via heterostructure engineering
-- [[Andreev Reflection]] ← create this note
-- [[π-Junctions]] ← create this note
+- [[Chapter 1 - The Green's Function Formalism]] : transport method for these systems
+- [[Odd-Parity Triplet Pairing]] : triplet generated at SC-FM interface
+- [[Topological Superconductivity]] : end goal via heterostructure engineering
+- [[Andreev Reflection]] ← Soon
+- [[π-Junctions]] ← Soon
 
 ---
 

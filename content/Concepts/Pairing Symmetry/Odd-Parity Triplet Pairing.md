@@ -36,23 +36,23 @@ $$\hat{F} = (i\sigma_y)(\mathbf{d}\cdot\boldsymbol{\sigma}) = \begin{pmatrix} -d
 ## Types of Triplet Pairing
 
 ### Equal-spin triplet (ESP)
-- d_z component → ↑↑ and ↓↓ pairs
-- **Long-range in ferromagnets** — not killed by exchange field
+- $d_z$ component → ↑↑ and ↓↓ pairs
+- **Long-range in ferromagnets**: which are not killed by exchange field
 - This is the **Long-Range Triplet Component (LRTC)**
 
 ### Mixed-spin triplet
-- d_x, d_y components → ↑↓ + ↓↑ pairs
+- $d_x$, $d_y$ components → ↑↓ + ↓↑ pairs
 - Short-range in strong ferromagnets
 
 ---
 
 ## Short-Range vs Long-Range Triplet
 
-| Component | Penetration in FM | Origin |
-|---|---|---|
-| Singlet (s-wave) | Short range ξ_F ~ few nm | Killed by exchange field |
-| Short-range triplet (m=0) | Short range | Mixed spin, pair-breaking |
-| **Long-range triplet (m=±1)** | **Long range ξ_N ~ hundreds nm** | **Equal spin, not pair-breaking** |
+| Component                     | Penetration in FM                  | Origin                            |
+| ----------------------------- | ---------------------------------- | --------------------------------- |
+| Singlet (s-wave)              | Short range $ξ_F$ ~ few nm         | Killed by exchange field          |
+| Short-range triplet (m=0)     | Short range                        | Mixed spin, pair-breaking         |
+| **Long-range triplet (m=±1)** | **Long range $ξ_N$ ~ hundreds nm** | **Equal spin, not pair-breaking** |
 
 **Key condition for LRTC generation:**
 Requires **broken spin-rotation symmetry** at the interface → spin-active interface, spin-orbit coupling, or non-collinear magnetization
@@ -116,20 +116,18 @@ Odd-parity triplet (p-wave-like) → **candidate for topological SC**
 ---
 
 ## Key Papers to Read
-- [ ] Bergeret, Volkov, Efetov — LRTC in SC-FM (Reviews of Modern Physics)
-- [ ] Eschrig — Triplet supercurrents (Physics Today)
-- [ ] Tanaka, Golubov — odd-frequency pairing review
-- [ ] Keizer et al. — long-range supercurrent through CrO₂
-- [ ] [[]] ← add your papers here
+- [ ] Bergeret, Volkov, Efetov: LRTC in SC-FM (Reviews of Modern Physics)
+- [ ] Eschrig: Triplet supercurrents (Physics Today)
+- [ ] Tanaka, Golubov: odd-frequency pairing review
+- [ ] Keizer et al.: long-range supercurrent through CrO₂
+- [ ] [[]] ← More soon
 
 ---
 
 ## Connections
-- [[NEGF Formalism]] — F matrix encodes triplet components
-- [[SC-FM Heterostructures]] — physical system where triplet arises
-- [[Topological Superconductivity]] — odd-parity triplet → topological phase
-- [[Berezinskii Pairing]] ← create this note
-- [[Spin-Active Interfaces]] ← create this note
+- [[Chapter 1 - The Green's Function Formalism]] : F matrix encodes triplet components
+- [[SC-FM Heterostructures]] : physical system where triplet arises
+- [[Topological Superconductivity]] : odd-parity triplet → topological phase
 
 ---
 

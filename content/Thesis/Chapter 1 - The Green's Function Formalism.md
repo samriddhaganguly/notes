@@ -542,15 +542,44 @@ $$
 
 > [!info]+ **Explicit Definitions of the Four Components**
 >
-> $$\hat{G}^{++}(\mathbf{k};t,t') = -i\langle\mathcal{T}\,\Psi(t)\Psi^{\dagger}(t')\rangle \quad\text{(time-ordered)} \tag{32a}$$
+> $$
+> \hat{G}^{++}(\mathbf{k};t,t')
+> =
+> -i\langle\mathcal{T}\,\Psi(t)\Psi^{\dagger}(t')\rangle
+> \quad
+> \text{(time-ordered)}
+> \tag{32a}
+> $$
 >
-> $$\hat{G}^{+-}(\mathbf{k};t,t') = +i\langle\Psi^{\dagger}(t')\Psi(t)\rangle \quad\text{(``lesser'', }G^{<}\text{)} \tag{32b}$$
+> $$
+> \hat{G}^{+-}(\mathbf{k};t,t')
+> =
+> +i\langle\Psi^{\dagger}(t')\Psi(t)\rangle
+> \quad
+> \text{(``lesser'', }G^{<}\text{)}
+> \tag{32b}
+> $$
 >
-> $$\hat{G}^{-+}(\mathbf{k};t,t') = -i\langle\Psi(t)\Psi^{\dagger}(t')\rangle \quad\text{(``greater'', }G^{>}\text{)} \tag{32c}$$
+> $$
+> \hat{G}^{-+}(\mathbf{k};t,t')
+> =
+> -i\langle\Psi(t)\Psi^{\dagger}(t')\rangle
+> \quad
+> \text{(``greater'', }G^{>}\text{)}
+> \tag{32c}
+> $$
 >
-> $$\hat{G}^{--}(\mathbf{k};t,t') = -i\langle\tilde{\mathcal{T}}\,\Psi(t)\Psi^{\dagger}(t')\rangle \quad\text{(anti-time-ordered)} \tag{32d}$$
+> $$
+> \hat{G}^{--}(\mathbf{k};t,t')
+> =
+> -i\langle\tilde{\mathcal{T}}\,\Psi(t)\Psi^{\dagger}(t')\rangle
+> \quad
+> \text{(anti-time-ordered)}
+> \tag{32d}
+> $$
 >
-> where $\tilde{\mathcal{T}}$ denotes **anti-chronological ordering**.
+> where $\tilde{\mathcal{T}}$ denotes
+> **anti-chronological ordering**.
 
 These four are **not independent**; they satisfy the exact identity:
 
@@ -621,11 +650,28 @@ where $G^R_0(\mathbf{k},\omega)=(\omega\tau_0-\mathcal{H}_{\mathbf{k}}+i\eta)^{-
 ### 6.5 Physical Meaning of $G^K$: The Fluctuation-Dissipation Theorem
 
 > [!important]+ **FDT in Equilibrium**
-> The Keldysh component encodes the **distribution function**. In equilibrium:
 >
-> $$G^K(\mathbf{k},\omega)\big|_{\mathrm{eq}} = \bigl[G^R(\mathbf{k},\omega)-G^A(\mathbf{k},\omega)\bigr]\tanh\!\left(\frac{\omega}{2k_B T}\right) \tag{38}$$
+> The Keldysh component encodes the
+> **distribution function**.
+> In equilibrium:
 >
-> a relation known as the **fluctuation-dissipation theorem (FDT)** ([[#References|Callen & Welton 1951]] · [[#References|Kubo 1957]]).
+> $$
+> G^K(\mathbf{k},\omega)\big|_{\mathrm{eq}}
+> =
+> \bigl[
+> G^R(\mathbf{k},\omega)
+> -
+> G^A(\mathbf{k},\omega)
+> \bigr]
+> \tanh\!\left(
+> \frac{\omega}{2k_B T}
+> \right)
+> \tag{38}
+> $$
+>
+> a relation known as the
+> **fluctuation-dissipation theorem (FDT)**
+> ([[#References|Callen & Welton 1951]] [[#References|Kubo 1957]]).
 
 > [!warning]+ **Out of Equilibrium**
 > $G^K \neq (G^R-G^A)\tanh(\omega/2k_B T)$, and the **deviation from FDT drives currents and dissipation**.
@@ -1124,3 +1170,10 @@ where $D=v_F^2\tau/3$ is the **diffusion constant**.
 
 ---
 
+## Connections
+- [[BdG Formalism]]: Nambu structure and superconducting Green’s functions
+- [[Topological Superconductivity]] : Green’s-function signatures of topological phases
+- [[K-Theory Classification of Topo Ins and Topo SC]] : symmetry classes in Green’s-function language
+- [[π-Junctions]] : TBD
+- [[SC-FM Heterostructures]] : superconducting proximity effects in hybrid systems
+- [[Odd-Parity Triplet Pairing]] : anomalous Green’s functions and unconventional pairing

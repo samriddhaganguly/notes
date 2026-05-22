@@ -26,7 +26,7 @@ Particle-hole symmetry implies: if $(u,v)^T$ is an eigenstate at $+E$, then $\ma
 **At E = 0:** the two are the same state:
 $$\begin{pmatrix}u_0 \\ v_0\end{pmatrix} = \begin{pmatrix}v_0^* \\ u_0^*\end{pmatrix} \implies u_0 = v_0^*$$
 
-This is the **Majorana condition** — particle and hole components are complex conjugates.
+This is the **Majorana condition**: particle and hole components are complex conjugates.
 
 ---
 
@@ -43,7 +43,7 @@ In the **Kitaev chain** at the topological fixed point ($\mu=0$, $t=\Delta$):
 - $\gamma_1$ (left end) and $\gamma_{2N}$ (right end) are **unpaired**
 - These two form a **non-local fermion**: $f = (\gamma_1 + i\gamma_{2N})/2$
 
-**Non-locality:** $\gamma_1$ and $\gamma_{2N}$ are spatially separated — quantum information stored between them is **immune to local perturbations**.
+**Non-locality:** $\gamma_1$ and $\gamma_{2N}$ are spatially separated, quantum information stored between them is **immune to local perturbations**.
 
 ---
 
@@ -119,7 +119,7 @@ Another platform: magnetic atoms on SC surface (e.g., Fe on Pb):
 
 ## Non-Abelian Statistics
 
-MBS obey **non-Abelian anyon** exchange statistics — fundamentally different from bosons and fermions.
+MBS obey **non-Abelian anyon** exchange statistics: fundamentally different from bosons and fermions.
 
 **Braiding:** Exchanging two MBS $\gamma_i$ and $\gamma_j$:
 $$U_{ij} = \frac{1}{\sqrt{2}}(1 + \gamma_i\gamma_j)$$
@@ -130,7 +130,7 @@ $$U_{12}U_{23} \neq U_{23}U_{12}$$
 **Fusion rules:** Two MBS fuse to give vacuum (0) or a fermion (1):
 $$\gamma \times \gamma = 1 + \psi$$
 
-**Topological quantum computing:** Sequences of braidings implement quantum gates — **fault-tolerant** because the result depends only on the topology of the braid, not details of the path.
+**Topological quantum computing:** Sequences of braidings implement quantum gates: **fault-tolerant** because the result depends only on the topology of the braid, not details of the path.
 
 ---
 
@@ -142,11 +142,11 @@ $$G(V=0) = \frac{2e^2}{h}$$
 The quantized **2e²/h** value is predicted for a perfect NS interface.
 
 **Observation history:**
-- Mourik et al. (2012): InSb nanowire — first ZBCP report
-- Deng et al. (2016): InAs nanowire — ZBCP at quantized value
-- Albrecht et al. (2016): Epitaxial Al/InAs — hard gap + ZBCP
+- Mourik et al. (2012): InSb nanowire: first ZBCP report
+- Deng et al. (2016): InAs nanowire: ZBCP at quantized value
+- Albrecht et al. (2016): Epitaxial Al/InAs: hard gap + ZBCP
 
-**⚠️ Caution:** ZBCP alone is NOT sufficient — many trivial mechanisms produce ZBCP:
+**⚠️ Caution:** ZBCP alone is NOT sufficient!! Many trivial mechanisms produce ZBCP:
 - Disorder/Andreev bound states
 - Kondo effect
 - Smooth confining potential
@@ -160,7 +160,7 @@ MBS energy splitting: $\epsilon_M \propto e^{-L/\xi}\cos(k_F L)$
 ### 3. 4π-periodic Josephson Effect
 In a topological Josephson junction:
 $$I(\phi) \propto \sin(\phi/2) \quad \text{(4π-periodic, not 2π)}$$
-Due to fermion parity conservation — ground state switches at φ=π.
+Due to fermion parity conservation, ground state switches at φ=π.
 **Observable as:** missing odd Shapiro steps in AC Josephson effect.
 
 ### 4. Tunneling Spectroscopy (STM)
@@ -228,27 +228,25 @@ Readout methods:
 ---
 
 ## Key Papers to Read
-- [ ] Kitaev (2001) — Unpaired Majorana fermions in quantum wires
-- [ ] Mourik et al., Science 2012 — First nanowire ZBCP
-- [ ] Nadj-Perge et al., Science 2014 — Fe chain on Pb, STM imaging
-- [ ] Albrecht et al., Nature 2016 — Epitaxial Al/InAs, exponential protection
-- [ ] Aguado, La Rivista del Nuovo Cimento 2017 — comprehensive MBS review
-- [ ] Frolov, Manfra, Sau — critique of Majorana evidence (2020)
-- [ ] Microsoft Station Q — topological qubit roadmap papers
-- [ ] Nayak et al., Rev. Mod. Phys. 2008 — non-Abelian anyons review
-- [ ] [[]] ← add your papers here
+- [ ] Kitaev (2001) : Unpaired Majorana fermions in quantum wires
+- [ ] Mourik et al., Science 2012 : First nanowire ZBCP
+- [ ] Nadj-Perge et al., Science 2014 : Fe chain on Pb, STM imaging
+- [ ] Albrecht et al., Nature 2016 : Epitaxial Al/InAs, exponential protection
+- [ ] Aguado, La Rivista del Nuovo Cimento 2017 : comprehensive MBS review
+- [ ] Frolov, Manfra, Sau : critique of Majorana evidence (2020)
+- [ ] Microsoft Station Q : topological qubit roadmap papers
+- [ ] Nayak et al., Rev. Mod. Phys. 2008 : non-Abelian anyons review
+- [ ] [[]] ← More soon
 
 ---
 
 ## Connections
-- [[BdG Formalism]] — MBS are zero-energy BdG eigenstates
-- [[Topological Superconductivity]] — MBS are the boundary states
-- [[K-Theory Classification of Topo Ins and Topo SC]] — Class D Z₂ → MBS
-- [[NEGF Formalism]] — ZBCP computed from NEGF conductance
-- [[SC-FM Heterostructures]] — heterostructure platform for MBS
-- [[Odd-Parity Triplet Pairing]] — odd-parity gap → topological → MBS
-- [[Yu-Shiba-Rusinov States]] ← create this note
-- [[Josephson Effect]] ← create this note
+- [[BdG Formalism]] : MBS are zero-energy BdG eigenstates
+- [[Topological Superconductivity]] : MBS are the boundary states
+- [[K-Theory Classification of Topo Ins and Topo SC]] : Class D Z₂ → MBS
+- [[Chapter 1 - The Green's Function Formalism]] : ZBCP computed from NEGF conductance
+- [[SC-FM Heterostructures]] : heterostructure platform for MBS
+- [[Odd-Parity Triplet Pairing]] : odd-parity gap → topological → MBS
 
 ---
 

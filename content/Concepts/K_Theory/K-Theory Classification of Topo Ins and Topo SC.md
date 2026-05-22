@@ -17,19 +17,19 @@ Two gapped Hamiltonians are **topologically equivalent** if one can be continuou
 
 All symmetry classes are built from three discrete symmetries acting on the Bloch/BdG Hamiltonian H(**k**):
 
-### Time-Reversal Symmetry (TRS) — T
+### Time-Reversal Symmetry (TRS) : T
 $$\mathcal{T} H(\mathbf{k}) \mathcal{T}^{-1} = H(-\mathbf{k}), \qquad \mathcal{T} = U_T \mathcal{K}$$
 - $\mathcal{T}^2 = +1$: integer spin (bosons, spinless fermions)
 - $\mathcal{T}^2 = -1$: half-integer spin (electrons, spin-1/2)
 - Absent: T = 0
 
-### Particle-Hole Symmetry (PHS) — C
+### Particle-Hole Symmetry (PHS) : C
 $$\mathcal{C} H(\mathbf{k}) \mathcal{C}^{-1} = -H(-\mathbf{k}), \qquad \mathcal{C} = U_C \mathcal{K}$$
 - **Intrinsic to BdG Hamiltonians** (always present in mean-field SC)
 - $\mathcal{C}^2 = +1$ or $\mathcal{C}^2 = -1$
 - Absent: C = 0
 
-### Chiral (Sublattice) Symmetry — S
+### Chiral (Sublattice) Symmetry: S
 $$\mathcal{S} H(\mathbf{k}) \mathcal{S}^{-1} = -H(\mathbf{k}), \qquad \mathcal{S} = \mathcal{T}\mathcal{C}$$
 - S = 1 if both T and C present, or if imposed independently
 - S = 0 otherwise
@@ -57,37 +57,37 @@ $$\mathcal{S} H(\mathbf{k}) \mathcal{S}^{-1} = -H(\mathbf{k}), \qquad \mathcal{S
 
 ## Key Physical Systems and Their Classes
 
-### Quantum Hall Effect (Integer) — Class A, d=2
+### Quantum Hall Effect (Integer): Class A, d=2
 - No TRS, no PHS: purely Chern insulator
 - Invariant: **Chern number N ∈ Z**
 $$N = \frac{1}{2\pi}\int_{BZ} \Omega(\mathbf{k})\ d^2k$$
 - Edge states: N chiral edge modes
 
-### Quantum Spin Hall / 2D TI — Class AII, d=2
+### Quantum Spin Hall / 2D TI: Class AII, d=2
 - TRS with $\mathcal{T}^2 = -1$, no PHS
 - Invariant: **Z₂ index ν ∈ {0,1}**
 - Kramers degeneracy protects edge states
 - Materials: HgTe/CdTe, InAs/GaSb, Bi₂Se₃ thin films
 
-### 3D Topological Insulator — Class AII, d=3
-- Invariant: **Z₂ index (ν₀; ν₁ν₂ν₃)** — four indices, ν₀ is "strong"
-- Surface: **Dirac cone** — single helical Dirac fermion
+### 3D Topological Insulator: Class AII, d=3
+- Invariant: **Z₂ index (ν₀; ν₁ν₂ν₃)**, four indices, ν₀ is "strong"
+- Surface: **Dirac cone**: single helical Dirac fermion
 - Materials: Bi₂Se₃, Bi₂Te₃, Sb₂Te₃
 
-### 1D Topological SC (Kitaev chain) — Class D, d=1
+### 1D Topological SC (Kitaev chain): Class D, d=1
 - PHS with $\mathcal{C}^2 = +1$, no TRS
 - Invariant: **Z₂ (Majorana number)**
 $$\mathcal{M} = \text{sign}\left[\text{Pf}(iH(0))\cdot\text{Pf}(iH(\pi))\right] \in \{+1,-1\}$$
 - End states: **Majorana zero modes**
 - Realization: SC nanowire + Zeeman field + SOC
 
-### 2D Topological SC — Class D, d=2
+### 2D Topological SC: Class D, d=2
 - Invariant: **Chern number N ∈ Z**
 - Vortex cores: Majorana zero modes
 - Edge: chiral Majorana mode
 - Candidates: p+ip SC, TI/SC heterostructure
 
-### 3D Topological SC — Class DIII, d=3
+### 3D Topological SC: Class DIII, d=3
 - TRS with $\mathcal{T}^2 = -1$ + PHS
 - Invariant: **Z (winding number)**
 - Surface: **Majorana cone** (helical)
@@ -112,7 +112,7 @@ This periodicity is the mathematical content of **K-theory** (complex K-theory f
 
 ---
 
-## Z₂ Invariant — Detailed Construction
+## Z₂ Invariant: A Detailed Construction
 
 For TRS-invariant systems ($\mathcal{T}^2 = -1$), the Z₂ invariant can be computed as:
 
@@ -126,11 +126,11 @@ $$(-1)^\nu = \prod_i \prod_{n=1}^{N/2} \xi_{2n}(\Gamma_i)$$
 where $\xi_{2n}$ are parity eigenvalues of occupied Kramers pairs. **Much simpler computationally.**
 
 ### Method 3: Wilson loop / hybrid Wannier centers
-Tracks **Wannier center flow** across the BZ — numerically robust.
+Tracks **Wannier center flow** across the BZ: numerically robust.
 
 ---
 
-## Chern Number — Detailed Construction
+## Chern Number: A Detailed Construction
 
 $$N = \frac{1}{2\pi}\int_{BZ} \mathbf{\Omega}(\mathbf{k})\cdot d\mathbf{S}$$
 
@@ -161,7 +161,7 @@ K-theory classifies **vector bundles** over the BZ torus T^d. Occupied bands for
 ### Twisted K-Theory and Disorder
 With disorder (Wigner-Dyson symmetry classes), use:
 - **Kasparov KK-theory** for disordered systems
-- **Spectral localizer** — local topological marker, works with NEGF
+- **Spectral localizer** is the local topological marker, works with NEGF
 
 ---
 
@@ -169,7 +169,7 @@ With disorder (Wigner-Dyson symmetry classes), use:
 
 For a d-dimensional system with topological invariant ν:
 - **(d−1)-dimensional boundary** hosts **ν gapless modes**
-- Modes are **topologically protected** — cannot be removed by boundary perturbations that preserve symmetry
+- Modes are **topologically protected**: cannot be removed by boundary perturbations that preserve symmetry
 - **Anomaly cancellation:** boundary theory is anomalous alone; bulk provides the missing anomaly
 
 **In SC context:**
@@ -215,24 +215,24 @@ The **exchange field** tunes the topological transition: trivial (|J| < Δ) ↔ 
 ---
 
 ## Key Papers to Read
-- [ ] Altland & Zirnbauer, PRB 1997 — original 10-fold classification
-- [ ] Kitaev, AIP Conf. Proc. 2009 — K-theory periodic table
-- [ ] Schnyder et al., PRB 2008 — classification of TI and TSC
-- [ ] Ryu et al., NJP 2010 — detailed K-theory treatment
-- [ ] Fu & Kane, PRB 2007 — Z₂ invariants with inversion
-- [ ] Volovik, *The Universe in a Helium Droplet* — Green's function approach
-- [ ] Wang & Zhang, PRB 2012 — topological invariants from G(ω,k)
-- [ ] [[]] ← add your papers here
+- [ ] Altland & Zirnbauer, PRB 1997 : original 10-fold classification
+- [ ] Kitaev, AIP Conf. Proc. 2009 : K-theory periodic table
+- [ ] Schnyder et al., PRB 2008 : classification of TI and TSC
+- [ ] Ryu et al., NJP 2010 : detailed K-theory treatment
+- [ ] Fu & Kane, PRB 2007 : Z₂ invariants with inversion
+- [ ] Volovik, *The Universe in a Helium Droplet* : Green's function approach
+- [ ] Wang & Zhang, PRB 2012 : topological invariants from G(ω,k)
+- [ ] [[]] ← More Soon
 
 ---
 
 ## Connections
-- [[Topological Superconductivity]] — physical realization
-- [[BdG Formalism]] — Hamiltonian that gets classified
-- [[Majorana Bound States]] — protected boundary states
-- [[NEGF Formalism]] — Green's function invariants
-- [[SC-FM Heterostructures]] — physical system, class D/DIII
-- [[Odd-Parity Triplet Pairing]] — odd-parity → non-trivial class
+- [[Topological Superconductivity]] : physical realization
+- [[BdG Formalism]] : Hamiltonian that gets classified
+- [[Majorana Bound States]] : protected boundary states
+- [[Chapter 1 - The Green's Function Formalism]] : Green's function invariants
+- [[SC-FM Heterostructures]] : physical system, class D/DIII
+- [[Odd-Parity Triplet Pairing]] : odd-parity → non-trivial class
 
 ---
 

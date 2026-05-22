@@ -20,7 +20,7 @@ SC-FM Heterostructures: NEGF Methods for Odd-Parity Triplet and Unconventional T
 ---
 
 ## Methodology
-- Primary: [[NEGF Formalism]] for quantum transport
+- Primary: [[Chapter 1 - The Green's Function Formalism]] for quantum transport
 - Supporting: BdG Hamiltonian construction
 - Comparison: Quasiclassical methods (Usadel/Eilenberger) where applicable
 - Experiments: Transport and Spectroscopy techniques
@@ -39,7 +39,6 @@ SC-FM Heterostructures: NEGF Methods for Odd-Parity Triplet and Unconventional T
 - [[Chapter 7 - Experimental Probe of Interfacial Effects]]
 - [[Chapter 8 - Discussion of Modelling and Experimental Findings]]
 
-*(Rename / restructure chapters as your thesis evolves)*
 
 ---
 

@@ -47,7 +47,7 @@ In a TSC, **Majorana bound states** appear at:
 - Vortex cores in 2D TSC
 - Domain walls between topological/trivial regions
 
-**Key property:** MBS come in **pairs** and are **non-local** — quantum information stored non-locally → robust to local decoherence → **topological qubit**
+**Key property:** MBS come in **pairs** and are **non-local**, quantum information stored non-locally → robust to local decoherence → **topological qubit**
 
 ---
 
@@ -103,10 +103,10 @@ SC + FM (exchange field) + spin-orbit coupling
 
 ## Topological Invariants
 
-**1D (Class D) — Z₂ invariant:**
+**1D (Class D) : Z₂ invariant:**
 $$\mathcal{M} = \text{sign}\left[\text{Pf}(H(0)) \cdot \text{Pf}(H(\pi))\right] = \pm 1$$
 
-**2D (Class A) — Chern number:**
+**2D (Class A) : Chern number:**
 $$N = \frac{1}{2\pi}\int_{BZ} \Omega(\mathbf{k})\ d^2k$$
 
 **From NEGF:** Topological invariant extractable from poles of G^R at zero frequency
@@ -136,23 +136,23 @@ $$N = \frac{1}{2\pi}\int_{BZ} \Omega(\mathbf{k})\ d^2k$$
 ---
 
 ## Key Papers to Read
-- [ ] Kitaev (2001) — Unpaired Majorana fermions in quantum wires
-- [ ] Fu & Kane (2008) — TI/SC → Majorana in vortices
-- [ ] Lutchyn et al. / Oreg et al. (2010) — Nanowire proposals
-- [ ] Mourik et al. (2012) — First nanowire ZBCP experiment
-- [ ] Nadj-Perge et al. (2014) — Atomic chain Majorana
-- [ ] Frolov et al. — Critical review of Majorana evidence
-- [ ] [[]] ← add your papers here
+- [ ] Kitaev (2001) : Unpaired Majorana fermions in quantum wires
+- [ ] Fu & Kane (2008) : TI/SC → Majorana in vortices
+- [ ] Lutchyn et al. / Oreg et al. (2010) : Nanowire proposals
+- [ ] Mourik et al. (2012) : First nanowire ZBCP experiment
+- [ ] Nadj-Perge et al. (2014) : Atomic chain Majorana
+- [ ] Frolov et al. : Critical review of Majorana evidence
+- [ ] [[]] ← More soon
 
 ---
 
 ## Connections
-- [[NEGF Formalism]] — transport signatures, G^R poles
-- [[Odd-Parity Triplet Pairing]] — prerequisite for odd-parity TSC
-- [[SC-FM Heterostructures]] — heterostructure route to TSC
-- [[Majorana Bound States]] ← create this note
-- [[Bulk-Boundary Correspondence]] ← create this note
-- [[Kitaev Chain]] ← create this note
+- [[Chapter 1 - The Green's Function Formalism]] : transport signatures, G^R poles
+- [[Odd-Parity Triplet Pairing]] : prerequisite for odd-parity TSC
+- [[SC-FM Heterostructures]] : heterostructure route to TSC
+- [[Majorana Bound States]] ←  For TQC
+- [[Bulk-Boundary Correspondence]] ← Soon
+- [[Kitaev Chain]] ← Soon
 
 ---
 

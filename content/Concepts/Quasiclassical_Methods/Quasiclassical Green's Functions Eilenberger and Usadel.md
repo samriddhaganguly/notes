@@ -51,7 +51,7 @@ $$\check{g} = \begin{pmatrix} g_{\alpha\beta} & f_{\alpha\beta} \\ \tilde{f}_{\a
 **Normalization condition** (fundamental constraint):
 $$\check{g}^2 = -\pi^2\check{1}$$
 
-This replaces the full Gor'kov equation — all solutions must satisfy this.
+This replaces the full Gor'kov equation; all solutions must satisfy this.
 
 ---
 
@@ -85,7 +85,7 @@ $$D\nabla\left(\check{g}\nabla\check{g}\right) + \left[i\omega_n\hat{\tau}_3 + i
 
 where $D = v_F\ell/3$ is the **diffusion constant** and $\hat{\Sigma}_{so}$ is the spin-orbit self-energy.
 
-**This is a matrix diffusion equation** — much simpler than Eilenberger.
+**This is a matrix diffusion equation**, much simpler than Eilenberger.
 
 ---
 
@@ -129,7 +129,7 @@ $$D\nabla^2 f_s = 2(\omega_n + ih)f_s + 2\Delta$$
 
 **Short-range triplet $f_{t,z}$:**
 $$D\nabla^2 f_{t,z} = 2(\omega_n + ih)f_{t,z}$$
-- Same decay as singlet — also short-range
+- Same decay as singlet, also short-range
 
 **Long-range triplet $f_{t,\perp} = f_{t,x} \pm if_{t,y}$:**
 $$D\nabla^2 f_{t,\perp} = 2\omega_n f_{t,\perp}$$
@@ -164,7 +164,7 @@ Intrinsic or interfacial SOC mixes spin channels:
 - **Dzyaloshinskii-Moriya-like** mechanism in Usadel: $\hat{\Sigma}_{so}$ term
 
 ### 4. Magnetic Inhomogeneity
-Conical magnets, spiral order, domain walls — spatially varying $\mathbf{h}(\mathbf{r})$:
+Conical magnets, spiral order, domain walls, i.e., spatially varying $\mathbf{h}(\mathbf{r})$:
 - Even in single FM layer, spatial gradients source LRTC
 
 ---
@@ -176,7 +176,7 @@ Conical magnets, spiral order, domain walls — spatially varying $\mathbf{h}(\m
 **Odd-frequency condition:** $f(\omega_n) = -f(-\omega_n)$
 
 In the Usadel formalism (imaginary time):
-- **Even-frequency singlet:** $f_s(\omega_n) = f_s(|\omega_n|)$ — conventional
+- **Even-frequency singlet:** $f_s(\omega_n) = f_s(|\omega_n|)$; conventional
 - **Odd-frequency triplet (LRTC):** $f_{t,\perp}(\omega_n) = -f_{t,\perp}(-\omega_n)$
 
 **Physical consequence:** Odd-frequency pairs have **negative spectral weight** at E=0 → **paramagnetic Meissner effect** (opposite to Londons)! Observable in principle as paramagnetic response.
@@ -213,7 +213,7 @@ $$\chi(\mathbf{r}) \propto \sum_{\omega_n} \text{Re}[f_s] + \text{(triplet corre
 The **odd-frequency triplet enhances** local susceptibility:
 $$\delta\chi_{OTE} > 0 \quad \text{(paramagnetic correction)}$$
 
-This is opposite to the singlet contribution (diamagnetic) — direct experimental handle.
+This is opposite to the singlet contribution (diamagnetic), direct experimental handle.
 
 ---
 
@@ -230,7 +230,7 @@ $$f_{t,\perp}(x) = f_{t,\perp}^{(0)}e^{-x/\xi_N} \quad\text{(only if LRTC source
 
 Plot $|f(\omega_n)|$ vs $\omega_n$:
 - Even-frequency: peaks at $\omega_1 = \pi k_BT$ (lowest Matsubara), decays for larger $n$
-- **Odd-frequency:** $f(\omega_1) \approx 0$, grows then decays — has a **maximum at intermediate ωₙ**
+- **Odd-frequency:** $f(\omega_1) \approx 0$, grows then decays, has a **maximum at intermediate ωₙ**
 
 ### Spatial Profile of LRTC
 
@@ -252,7 +252,7 @@ $$I(\phi) = 2ek_BT\sum_{\omega_n > 0}\text{Im}\left[f_s^R f_s^{A*}e^{i\phi}\righ
 
 **With LRTC:**
 $$I_{LRTC}(\phi) \propto \text{Im}\left[f_{t,\perp}^R f_{t,\perp}^{A*}\right]\sin\phi$$
-LRTC contributes a **long-range positive Josephson current** — survives for $d_{FM} \gg \xi_F$.
+LRTC contributes a **long-range positive Josephson current** which survives for $d_{FM} \gg \xi_F$.
 
 ---
 
@@ -305,29 +305,27 @@ Use **Usadel** for diffusive trilayer/spin-valve physics → LRTC, spin suscepti
 ---
 
 ## Key Papers to Read
-- [ ] Eilenberger, Z. Phys. 1968 — original quasiclassical equation
-- [ ] Usadel, PRL 1970 — dirty limit equation
-- [ ] Bergeret, Volkov, Efetov — Odd triplet (Rev. Mod. Phys. 2005)
-- [ ] Eschrig et al. — Spin-active interfaces and LRTC (PRL 2003, JLTP 2009)
-- [ ] Cottet, Huertas-Hernando, Belzig, Nazarov — triplet in diffusive systems
-- [ ] Tanaka, Golubov — odd-frequency pairing (PRL 2007)
-- [ ] Linder & Robinson — Superconducting spintronics (Nature Physics 2015)
-- [ ] Heikkilä, Teixeira da Silva — spin susceptibility in SC hybrids
-- [ ] Champel & Eschrig — Eilenberger for non-collinear FM
-- [ ] [[]] ← add your papers here
+- [ ] Eilenberger, Z. Phys. 1968 : original quasiclassical equation
+- [ ] Usadel, PRL 1970 : dirty limit equation
+- [ ] Bergeret, Volkov, Efetov : Odd triplet (Rev. Mod. Phys. 2005)
+- [ ] Eschrig et al. : Spin-active interfaces and LRTC (PRL 2003, JLTP 2009)
+- [ ] Cottet, Huertas-Hernando, Belzig, Nazarov : triplet in diffusive systems
+- [ ] Tanaka, Golubov : odd-frequency pairing (PRL 2007)
+- [ ] Linder & Robinson : Superconducting spintronics (Nature Physics 2015)
+- [ ] Heikkilä, Teixeira da Silva : spin susceptibility in SC hybrids
+- [ ] Champel & Eschrig : Eilenberger for non-collinear FM
+- [ ] [[]] ← More
 
 ---
 
 ## Connections
-- [[BdG Formalism]] — Usadel is the dirty limit of BdG/Gor'kov
-- [[Odd-Parity Triplet Pairing]] — f_t decomposition gives triplet content
-- [[SC-FM Heterostructures]] — primary application domain
-- [[NEGF Formalism]] — complementary: Usadel for bulk, NEGF for transport
-- [[Topological Superconductivity]] — Eilenberger can access winding numbers
-- [[Majorana Bound States]] — Usadel approach to topological signatures
-- [[Spin-Active Interfaces]] ← create this note
-- [[π-Junctions]] ← create this note
-- [[Odd-Frequency Pairing]] ← create this note
+- [[BdG Formalism]] : Usadel is the dirty limit of BdG/Gor'kov
+- [[Odd-Parity Triplet Pairing]] : $f_t$ decomposition gives triplet content
+- [[SC-FM Heterostructures]] :  primary application domain
+- [[Chapter 1 - The Green's Function Formalism]] : complementary: Usadel for bulk, NEGF for transport
+- [[Topological Superconductivity]] : Eilenberger can access winding numbers
+- [[Majorana Bound States]] : Usadel approach to topological signatures
+
 
 ---
 

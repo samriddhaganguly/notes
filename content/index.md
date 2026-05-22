@@ -1,5 +1,5 @@
 ---
-title: Samriddha Ganguly — MS Thesis Notes
+title: Samriddha's — MS Thesis Notes
 ---
 
 # SC-FM Heterostructures & Topological Superconductivity
@@ -10,7 +10,7 @@ unconventional topological superconductivity.
 
 ## Quick Navigation
 
-- [[NEGF Formalism]]
+- [[Chapter 1 - The Green's Function Formalism]]
 - [[BdG Formalism]]
 - [[Odd-Parity Triplet Pairing]]
 - [[SC-FM Heterostructures]]
@@ -21,3 +21,7 @@ unconventional topological superconductivity.
 
 ## Thesis Overview
 - [[Thesis Overview]]
+
+<p style="color: gray; font-size: 0.9em;">
+All material and notes presented here are authored by Samriddha Ganguly and are intended solely for academic study, research, and educational purposes.
+</p>

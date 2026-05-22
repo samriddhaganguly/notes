@@ -26,7 +26,7 @@ This must be solved **self-consistently**.
 
 ---
 
-## Nambu Spinor — The Key Step
+## Nambu Spinor: The Key Step
 
 Introduce the **Nambu (particle-hole) spinor**:
 
@@ -116,7 +116,7 @@ Normalization: $\sum_\sigma(|u_{n\sigma}|^2 + |v_{n\sigma}|^2) = 1$
 
 ## BdG in Real Space (Inhomogeneous Systems)
 
-For interfaces, heterostructures, vortices — go to **real space**:
+For interfaces, heterostructures, vortices will go to **real space**:
 $$\sum_{j}\mathcal{H}_{BdG}^{ij}\begin{pmatrix} u_{nj} \\ v_{nj} \end{pmatrix} = E_n\begin{pmatrix} u_{ni} \\ v_{ni} \end{pmatrix}$$
 
 Lattice BdG Hamiltonian (tight-binding on cubic lattice):
@@ -228,30 +228,28 @@ Full symmetry classification of $\hat{\Delta}(\mathbf{k},\omega)$:
 | Singlet | Odd | Odd | OSO | proximity induced |
 | **Triplet** | **Even** | **Odd** | **OTE** | **SC-FM proximity! LRTC** |
 
-OTE = **Odd-frequency Triplet Even-parity** — the long-range component in SC-FM systems.
+OTE = **Odd-frequency Triplet Even-parity**: the long-range component in SC-FM systems.
 
 ---
 
 ## Key Papers to Read
-- [ ] de Gennes, *Superconductivity of Metals and Alloys* — original BdG
-- [ ] Blonder, Tinkham, Klapwijk (BTK) 1982 — Andreev reflection & transport
-- [ ] Beenakker — Andreev billiards review
-- [ ] Tanaka, Golubov — BdG for unconventional SC interfaces
-- [ ] Lutchyn et al. / Oreg et al. 2010 — BdG for Majorana nanowire
-- [ ] [[]] ← add your papers here
+- [ ] de Gennes, *Superconductivity of Metals and Alloys*: original BdG
+- [ ] Blonder, Tinkham, Klapwijk (BTK) 1982: Andreev reflection & transport
+- [ ] Beenakker: Andreev billiards review
+- [ ] Tanaka, Golubov: BdG for unconventional SC interfaces
+- [ ] Lutchyn et al. / Oreg et al. 2010: BdG for Majorana nanowire
+- [ ] [[]] More Soon!
 
 ---
-
 ## Connections
-- [[NEGF Formalism]] — transport from BdG Hamiltonian
-- [[Odd-Parity Triplet Pairing]] — gap matrix structure
-- [[SC-FM Heterostructures]] — BdG for bilayer systems
-- [[Topological Superconductivity]] — PHS from BdG → topological class
-- [[K-Theory Classification of Topo Ins and Topo SC]] — classifies the BdG H
-- [[Majorana Bound States]] — zero-energy BdG eigenstates
-- [[Quasiclassical Green's Functions]] — limit of BdG for slowly varying systems
+- [[Chapter 1 - The Green's Function Formalism]] : transport from BdG Hamiltonian
+- [[Odd-Parity Triplet Pairing]] : gap matrix structure
+- [[SC-FM Heterostructures]] : BdG for bilayer systems
+- [[Topological Superconductivity]] : PHS from BdG → topological class
+- [[K-Theory Classification of Topo Ins and Topo SC]] : classifies the BdG H
+- [[Majorana Bound States]] : zero-energy BdG eigenstates
+- [[Quasiclassical Green's Functions Eilenberger and Usadel]] : limit of BdG for slowly varying systems
 
 ---
-
 ## My Notes / Open Questions
 -
