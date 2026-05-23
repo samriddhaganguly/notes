@@ -256,7 +256,24 @@ Collecting all terms from steps 1 and 2 gives:
 
 > [!success]+ **Eilenberger Transport Equation**
 >
-> $$\boxed{iv_F\,\hat{k}\cdot\nabla_{\mathbf{r}}\,\check{g} + \bigl[\omega\tau_3 - \check{\Delta} - \check{\sigma},\;\check{g}\bigr] = 0} \tag{15}$$
+> $$
+> \boxed{
+> iv_F\,\hat{k}\cdot\nabla_{\mathbf{r}}\,\check{g}
+> +
+> \bigl[
+> \omega\tau_3
+> -
+> \check{\Delta}
+> -
+> \check{\sigma},
+> \;
+> \check{g}
+> \bigr]
+> =
+> 0
+> }
+> \tag{15}
+> $$
 
 where:
 - $\check{\Delta}$: the Nambu$\otimes$Keldysh gap matrix
@@ -367,15 +384,39 @@ where $\omega^R=\omega+i\eta$. Computing $(\check{g}^{\mathrm{bulk}})^2$ explici
 
 > [!important]+ **Normalization Condition (Exact)**
 >
-> $$\boxed{\check{g}^2 = -\pi^2\,\check{1}} \tag{22}$$
+> $$
+> \boxed{
+> \check{g}^2
+> =
+> -\pi^2\,\check{1}
+> }
+> \tag{22}
+> $$
 >
 > or in the Larkin–Ovchinnikov decomposition:
 >
-> $$(g^R)^2 = -\pi^2\,\hat{1} \tag{22a}$$
+> $$
+> (g^R)^2
+> =
+> -\pi^2\,\hat{1}
+> \tag{22a}
+> $$
 >
-> $$(g^A)^2 = -\pi^2\,\hat{1} \tag{22b}$$
+> $$
+> (g^A)^2
+> =
+> -\pi^2\,\hat{1}
+> \tag{22b}
+> $$
 >
-> $$g^R g^K + g^K g^A = 0 \tag{22c}$$
+> $$
+> g^R g^K
+> +
+> g^K g^A
+> =
+> 0
+> \tag{22c}
+> $$
 
 This result is **exact** (not just for the bulk BCS case) and follows from the analytic structure of the quasiclassical propagator.
 
@@ -423,21 +464,77 @@ In the quasiclassical framework, the self-energy $\check\sigma(\hat{k},\mathbf{r
 > [!info]+ **Sources of the Quasiclassical Self-Energy**
 >
 > **1. Elastic impurity scattering (non-magnetic):**
-> In the Born approximation for a random potential with correlator $\langle V(\mathbf{r})V(\mathbf{r}')\rangle=n_i|u|^2\delta(\mathbf{r}-\mathbf{r}')$:
 >
-> $$\check\sigma_{\mathrm{imp}} = \frac{1}{2\tau_{\rm sc}}\langle\check{g}(\hat{k},\mathbf{r};\omega)\rangle_{\hat{k}} \tag{24}$$
+> In the Born approximation for a random potential with correlator
+> $\langle V(\mathbf{r})V(\mathbf{r}')\rangle
+> =
+> n_i|u|^2\delta(\mathbf{r}-\mathbf{r}')$:
 >
-> where $\tau_{\rm sc}=(2\pi N_0 n_i|u|^2)^{-1}$ is the elastic scattering time and $\langle\cdots\rangle_{\hat{k}}=(4\pi)^{-1}\int d\hat{k}\,(\cdots)$ denotes the **Fermi-surface average**.
+> $$
+> \check\sigma_{\mathrm{imp}}
+> =
+> \frac{1}{2\tau_{\rm sc}}
+> \left\langle
+> \check{g}(\hat{k},\mathbf{r};\omega)
+> \right\rangle_{\hat{k}}
+> \tag{24}
+> $$
+>
+> where
+> $\tau_{\rm sc}
+> =
+> (2\pi N_0 n_i|u|^2)^{-1}$
+> is the elastic scattering time and
+>
+> $$
+> \left\langle
+> \cdots
+> \right\rangle_{\hat{k}}
+> =
+> (4\pi)^{-1}
+> \int d\hat{k}\,
+> (\cdots)
+> $$
+>
+> denotes the
+> **Fermi-surface average**.
 >
 > **2. Magnetic impurities (pair-breaking):**
 >
-> $$\check\sigma_{\mathrm{mag}} = \frac{1}{2\tau_{\mathrm{sf}}}\sum_{\alpha=x,y,z}\bigl\langle\tau_\alpha\,\check{g}\,\tau_\alpha\bigr\rangle_{\hat{k}} \tag{25}$$
+> $$
+> \check\sigma_{\mathrm{mag}}
+> =
+> \frac{1}{2\tau_{\mathrm{sf}}}
+> \sum_{\alpha=x,y,z}
+> \left\langle
+> \tau_\alpha\,
+> \check{g}\,
+> \tau_\alpha
+> \right\rangle_{\hat{k}}
+> \tag{25}
+> $$
 >
-> where $\tau_{\mathrm{sf}}$ is the spin-flip scattering time.
+> where $\tau_{\mathrm{sf}}$
+> is the spin-flip scattering time.
 >
-> **3. Spin-orbit coupling** (relevant for topological systems): more complex angular structure on the Fermi surface.
+> **3. Spin-orbit coupling**
+> (relevant for topological systems):
+> more complex angular structure
+> on the Fermi surface.
 >
-> **4. Inelastic (electron-phonon) scattering** ([[#References|Eliashberg 1960]]): frequency-dependent self-energy $\propto\int d\omega'\,\alpha^2F(\omega')\,\check{g}(\omega-\omega')$.
+> **4. Inelastic (electron-phonon) scattering**
+> ([[#References|Eliashberg 1960]]):
+>
+> $$
+> \Sigma(\omega)
+> \propto
+> \int d\omega'\,
+> \alpha^2F(\omega')\,
+> \check{g}(\omega-\omega')
+> $$
+>
+> giving a frequency-dependent
+> self-energy correction.
 
 ---
 
@@ -752,7 +849,28 @@ Defining the diffusion constant $D=v_F^2\tau_{\rm sc}/3$ (in 3D) and using the n
 
 > [!success]+ **The Usadel Equation**
 >
-> $$\boxed{D\,\nabla\!\cdot\!\bigl(\check{g}_s\,\nabla\check{g}_s\bigr) + \bigl[\omega\tau_3 - \check\Delta - \check\sigma_{\mathrm{sf}},\;\check{g}_s\bigr] = 0} \tag{45}$$
+> $$
+> \boxed{
+> D\,\nabla\!\cdot\!
+> \bigl(
+> \check{g}_s\,
+> \nabla\check{g}_s
+> \bigr)
+> +
+> \bigl[
+> \omega\tau_3
+> -
+> \check\Delta
+> -
+> \check\sigma_{\mathrm{sf}},
+> \;
+> \check{g}_s
+> \bigr]
+> =
+> 0
+> }
+> \tag{45}
+> $$
 
 where we have also included $\check\sigma_{\mathrm{sf}}$ for **spin-flip (magnetic) scattering**, since it is isotropic and thus not eliminated by the averaging. Henceforth we drop the subscript $s$ and write $\check{g}\equiv\check{g}_s$.
 
